@@ -12,7 +12,7 @@ func main() {
 	copy(tmp, a[:])
 
 	// Try the sorting algorithm
-	HeapSort(tmp)
+	QuickSort(tmp, 0, len(tmp)-1)
 
 	fmt.Println(a, tmp)
 }
